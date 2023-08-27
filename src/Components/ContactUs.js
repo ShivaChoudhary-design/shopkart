@@ -89,8 +89,14 @@ const ContactUs = () => {
         </div>
         <div className="get-in">
           <div className="first">
-            <h1 className="in-touch">
-              GET <br></br>IN TOUCH
+            <h1 id="get" className="in-touch">
+              GET
+            </h1>
+            <h1 id="in" className="in-touch">
+              IN{"   "}
+            </h1>
+            <h1 id="touch" className="in-touch">
+              TOUCH
             </h1>
           </div>
           <button className="send" type="submit">

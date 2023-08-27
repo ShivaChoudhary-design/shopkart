@@ -450,6 +450,15 @@ line-height: normal;
   display: flex;
   
 }
+#get{
+  margin-bottom: 6px;
+}
+#touch{
+  display: inline;
+}
+#in{
+  display: inline;
+}
 .first{
   
   margin-left: 5.625rem;
@@ -551,34 +560,7 @@ padding: 1.5rem 0 1.5rem 0;
     margin-bottom: 1.085rem;
   }
   
-  /* .header{
-    display: flex;
-    justify-content: space-between;
-  }
-  .left-header-height{
-    font-size: 0.813rem;
-  }
-  #margin-right-te{
-    margin-right: 0;
-  }
   
-
-  .right-header-height{
-    font-size: 0.625rem;
-  }
-
-  #right-margin-fourteen{
-  margin-right: 0.519rem;
-}
-
-#right-margin-thirtyfive{
-  margin-right: 0.25rem;
-}
-
-.header-img{
-  width: 0.281rem;
-  height: 0.475rem;
-} */
 
   /* Header */
   /* Lower Header */
@@ -708,12 +690,13 @@ flex-shrink: 0;
     display: flex;
     justify-content: center;
   }
-
+  
   .in-touch{
     font-size: 3.438rem;
     line-height: 67.6%;
 
   }
+
   .send img{
     width: 6.25rem;
     height: 6.25rem;
@@ -722,6 +705,14 @@ flex-shrink: 0;
     
     margin-top: 4.813rem;
     margin-left: 0;
+  }
+
+  #in{
+    display: block;
+    margin-bottom: 6px;
+  }
+  #touch{
+    display: block;
   }
   /* Form */
 
