@@ -212,7 +212,7 @@ font-weight: 800;
 line-height: 6.413rem;
 color: transparent;
 margin-left: 26.5rem;
--webkit-text-stroke: 0.0001rem var(--grey-scale-1000, white); /* Width and color of the outline */
+-webkit-text-stroke: 1px var(--grey-scale-1000, white); /* Width and color of the outline */
   
 
 }
