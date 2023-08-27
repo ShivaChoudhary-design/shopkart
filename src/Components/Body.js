@@ -1,9 +1,7 @@
 import React from "react";
 
 import vector from "./images/Vector.png";
-import bacimg from "./images/jessica-radanavong-IchPBHFD0pw-unsplash.png";
 
-import star from "./images/Star 3.png";
 
 const Body = () => {
   return (
