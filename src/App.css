@@ -1,38 +1,678 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Syne';
+  
+  
+  
+}
+  input[type="text"]
+{    background: transparent;
+    border: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input[type="email"]
+{    background: transparent;
+    border: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.get-in button{
+  background: transparent;
+    border: none;
+    cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+/* Header */
+
+.header{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 0.813rem;
+  
+  background-color: #1A1A1A;
+  color: #626262;
+  height: 2.625rem;
+}
+.sm-sc-header{
+  display: none;
+}
+.left-header{
+  display: flex;
+  list-style: none;
+}
+.left-header-height{
+  font-size: 1.125rem;
+  
+}
+
+#margin-right-te{
+  margin-right: 1.75rem;
+}
+
+.right-header{
+  display: flex;
+  list-style: none;
+}
+
+.right-header-height{
+  font-size: 0.938rem;
+
+
+}
+.right-margin{
+  margin-right: 0.75rem;
+}
+
+#right-margin-fourteen{
+  margin-right: 0.875rem;
+}
+#right-margin-thirtyfive{
+  margin-right: 2.188rem;
+}
+
+.header-img{
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+/* Header */
+
+/* Lower Header */
+.lower-header{
+  display: flex;
+  justify-content: space-around;
+  background: var(--grey-scale-1000, #000);
+  color: white;
+  align-items: center;
+  position: relative;
+  
+  border-bottom: 1px solid white;
+  
+  
+}
+
+.lower-header h2{
+  font-size: 3.75rem;
+  font: 'Poppins';
+  font-weight: 200;
+}
+
+.cart{
+  display: flex;
+  list-style: none;
+}
+
+.cart li{
+  margin-right: 0.625rem;
+  font-weight: 400;
+  
+}
+
+/* .mobile-menu {
+  display: none;
+} */
+
+/* Lower Header */
+
+
+/* Navigation */
+.navigation{
+  background: var(--grey-scale-1000, #000);
+  padding-top: 0.375rem;
+  padding-bottom: 8.563rem;
+}
+
+.nav-items{
+  display: flex;
+  font-size: 1.75rem;
+  padding-left: 8.563rem;
+}
+.nav-item{
+  color: white;
+  list-style: none;
+  margin-right: 6.625rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.products{
+  border: 1px solid white;
+  padding-bottom: 0.25rem;
+  
+}
+
+.products-border{
+  
+  border: 1px solid var(--grey-scale-000, #FFF);
+  border-bottom: 0px solid var(--grey-scale-000, #FFF);
+
+}
+
+.product{
+  list-style: none;
+  font-weight: 100;
+}
+
+
+/* Body */
+
+.body{
+
+  background: url(./Components/images/jessica-radanavong-IchPBHFD0pw-unsplash.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  
+  color: white;
+  background-color: var(--grey-scale-1000, #000);
+  padding-bottom: 5.693rem;
+  overflow-x: hidden;
+}
+
+
+
+.orange{
+  
+  height: 22.144rem;
+  background: var(--pimary-colour, #F07E15);
+  margin-left: 27.938rem;
+  margin-top: -11rem;
+  opacity: 0.7;
+  color: #161615;
+  font-size: 0.87rem;
+  text-align: end;
+  font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+  
+
+}
+
+#fresh{
+  font-family: Syne;
+  width: 100%;
+font-size: 8.438rem;
+font-style: normal;
+font-weight: 800;
+line-height: 6.413rem;
+margin-left: 7.188rem;
+}
+
+#year{
+  font-family: Syne;
+  width: 100%;
+font-size: 8.438rem;
+font-style: normal;
+font-weight: 800;
+line-height: 6.413rem;
+margin-left: 26.5rem;
+
+}
+
+#look{
+  font-family: Syne;
+  width: 100%;
+font-size: 8.438rem;
+font-style: normal;
+font-weight: 800;
+line-height: 6.413rem;
+margin-left: 11.688rem;
+
+}
+
+.body p{
+  font-family: Work Sans;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left: 7.188rem;
+}
+
+.body p img{
+  padding-left: 0.5rem;
+}
+
+
+/* Products */
+
+.product-header{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.product-header h2{
+  font-size: 5.625rem;
+  font-weight: 600;
+  color: var(--grey-scale-1000, #000);
+  border-bottom: 1px solid  var(--grey-scale-1000, #161615);;
+}
+
+.arrow{
+  font-family: Syne;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  
+}
+
+.arrow li{
+  margin-left: 3rem;
+}
+.new-products main{
+  display: flex;
+  
+}
+.new-products main {
+  margin-top: 2.125rem;
+}
+.new-products main ul{
+  list-style: none;
+}
+.options{
+  margin-left: 5.688rem;
+}
+
+#accessories{
+  font-family: Syne;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 1.438rem;
+  margin-bottom: 1.25rem;
+}
+#best-seller{
+  margin-bottom: 1.438rem;
+
+}
+
+.option-list{
+  font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.all-products{
+  
+  position: relative;
+  
+  overflow: hidden;
+  display: flex;
+  margin-left: 6.063rem;
+  
+}
+
+.arrow-2{
+  display: none;
+}
+
+/* Products */
+
+
+/* Product Card */
+
+.product-card{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  
+  margin-left: 1.625rem;
+}
+.product-details{
+  display: flex;
+  width: 19.375rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap:0.5rem;
+  padding: 0.5rem;
+  
+}
+#product-img{
+  width: 19.375rem;
+  height: 20.125rem;
+  margin-bottom: 0.75rem;
+  flex-shrink: 0;
+}
+
+#product-title{
+  font-family: Syne;
+  font-size: 1.625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: var(--grey-scale-1000, #000);
+
+}
+
+#product-description{
+  color: var(--greyscale-400, rgba(22, 22, 21, 0.50));
+
+  font-family: Work Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+#pr-price{
+  color: var(--grey-scale-1000, #000);
+
+  font-family: Syne;
+  font-size: 1.625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* Product Card */
+
+
+/* form */
+.form{
+  background: url("./Components/images/18591063.png");
+  height: 32.5rem;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.form-upper{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5.125rem;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.new{
+  margin-right: 11rem;
+ 
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs input{
+  
+  font-family: Work Sans;
+  font-size: 1.125rem;
+  font-weight: 400;
+  border-bottom: 1px solid white;
+  
+}
+#email{
+  margin-top: 2.188rem;
+}
+#message{
+  margin-top: 2.438rem;
+}
+#news{
+  font-size: 1.625rem;
+  font-weight: 600;
+}
+
+.news-content{
+  font-family: Work Sans;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+
+
+.get-in{
+  display: flex;
+  
+}
+.first{
+  
+  margin-left: 5.625rem;
+}
+
+.in-touch{
+  
+  
+  font-family: Syne;
+font-size: 8.438rem;
+font-style: normal;
+font-weight: 800;
+line-height: 6.413rem;
+
+flex-shrink: 0;
+
+}
+
+
+/* form */
+/* Footer */
+.footer{
+  background: var(--grey-scale-1000, #000);
+}
+.footer p{
+  color: #FFF;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+padding: 1.5rem 0 1.5rem 0;
+
+}
+
+/* footer */
+
+@media (max-width : 768px){
+
+
+  /* Header */
+  .header{
+    display: flex;
+    justify-content: space-between;
   }
-  to {
-    transform: rotate(360deg);
+  .left-header-height{
+    font-size: 0.813rem;
   }
+  #margin-right-te{
+    margin-right: 0;
+  }
+  
+
+  .right-header-height{
+    font-size: 0.625rem;
+  }
+
+  #right-margin-fourteen{
+  margin-right: 0.519rem;
+}
+
+#right-margin-thirtyfive{
+  margin-right: 0.25rem;
+}
+
+.header-img{
+  width: 0.281rem;
+  height: 0.475rem;
+}
+
+  /* Header */
+  /* Lower Header */
+  .lower-header{
+    display: none;
+  }
+  .sm-sc-header{
+    display: flex;
+    background-color: #000;
+    color: white;
+    justify-content: space-around;
+    padding-top: 29px;
+    border-bottom: 1px solid white;
+  }
+  .menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: #626262;
+  
+  margin-top: 2.7rem;
+  color: white;
+  width: 9.375rem;
+  padding: 0.4rem;
+  
+}
+.menu li {
+  color: white;
+  text-decoration: none;
+  margin: 0.5rem 0;
+  list-style: none;
+}
+
+  .sm-sc-header p{
+    font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 275;
+line-height: normal;
+padding-bottom: 4px;
+  }
+
+  .sm-sc-header img{
+    width: 24px;
+height: 24px;
+padding: 5px 3px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+
+  }
+  /* Lower Header */
+  /* Products */
+  .new-products main {
+    display: flex;
+    flex-direction: column;
+  }
+  .options{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    margin-left: 0;
+    margin-bottom: 2.375rem;
+  }
+  #accessories{
+    font-size: 18px;
+    margin: 0;
+  }
+  #best-seller{
+    margin-bottom: 0;
+  }
+  
+  .product-card{
+    margin-left: 0;
+  }
+
+  .product-header h2{
+    font-size: 2.5rem;
+  }
+
+  
+
+  .arrow{
+    display: none;
+  }
+  .arrow-2{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5.25rem;
+    margin-right: 3rem;
+    margin-top: -160px;
+    margin-bottom: 3.438rem;
+  }
+  .all-products{
+    margin-left: 1.35rem;
+  }
+  /* Products */
+
+  /* Form */
+  .form{
+    height: 39rem;
+  }
+  .inputs{
+    margin-top: 10px;
+  }
+  .form-upper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3.8rem;
+  }
+  .new{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+  }
+  #news{
+    margin-bottom: 1.125rem;
+  }
+  .get-in{
+    display: flex;
+    justify-content: center;
+  }
+
+  .in-touch{
+    font-size: 3.438rem;
+    line-height: 67.6%;
+
+  }
+  .send img{
+    width: 6.25rem;
+    height: 6.25rem;
+  }
+  .first{
+    
+    margin-top: 4.813rem;
+    margin-left: 0;
+  }
+  /* Form */
+
+  /* Navigation */
+  .nav-items{
+    display: none;
+  }
+  /* Navigation */
+
+  /* Body */
+  .orange{
+    height: 20.25rem;
+    margin: 0;
+    opacity: 0.5;
+  }
+  #fresh{
+    
+font-size: 3.438rem;
+margin-left: 3.438rem;
+line-height: 125.6%;
+
+  }
+  #year{
+    font-size: 3.438rem;
+margin-left: 8rem;
+line-height: 125.6%;
+  }
+  #look{
+    font-size: 3.438rem;
+    margin-left: 5rem;
+  }
+  .body p{
+    padding-left: 3rem;
+  }
+  
 }
