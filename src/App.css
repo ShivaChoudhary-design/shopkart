@@ -27,7 +27,9 @@ input[type="email"]
 
 
 /* Header */
-
+.sm-header{
+  display: none;
+}
 .header{
   display: flex;
   justify-content: space-around;
@@ -402,6 +404,7 @@ line-height: normal;
   display: flex;
   justify-content: space-around;
   padding-top: 5.125rem;
+  padding-bottom: 1.75rem;
 
 }
 
@@ -490,6 +493,65 @@ padding: 1.5rem 0 1.5rem 0;
 
   /* Header */
   .header{
+    display: none;
+  }
+  .sm-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    color: white;
+  }
+
+  .sm-left ul{
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+    margin-top: 0.875rem;
+    margin-bottom: 0.813rem;
+
+  }
+  .sm-left ul li{
+    color: #626262;
+    font-size: 0.625rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .sm-right ul{
+    display: flex;
+    list-style: none;
+    gap: 0.75rem;
+  }
+  .sm-right ul li p{
+    color: #626262;
+    font-family: Poppins;
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0.875rem;
+    margin-bottom: 0.813;
+
+  }
+  #fb{
+    margin-top: 1.125rem;
+    margin-bottom: 1.025rem;
+  }
+  #twitter{
+    margin-top: 1.188rem;
+    margin-bottom: 1.088rem;
+  }
+  #insta{
+    margin-top: 1.063rem;
+    margin-bottom: 1.063rem;
+  }
+  #ln{
+    margin-top: 1.063rem;
+    margin-bottom: 1.085rem;
+  }
+  
+  /* .header{
     display: flex;
     justify-content: space-between;
   }
@@ -516,7 +578,7 @@ padding: 1.5rem 0 1.5rem 0;
 .header-img{
   width: 0.281rem;
   height: 0.475rem;
-}
+} */
 
   /* Header */
   /* Lower Header */
