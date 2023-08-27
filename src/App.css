@@ -95,6 +95,7 @@ input[type="email"]
   
 }
 
+
 .lower-header h2{
   font-size: 3.75rem;
   font: 'Poppins';
@@ -209,9 +210,13 @@ font-size: 8.438rem;
 font-style: normal;
 font-weight: 800;
 line-height: 6.413rem;
+color: transparent;
 margin-left: 26.5rem;
+-webkit-text-stroke: 0.0001rem var(--grey-scale-1000, white); /* Width and color of the outline */
+  
 
 }
+
 
 #look{
   font-family: Syne;
@@ -250,9 +255,20 @@ padding-left: 7.188rem;
   font-size: 5.625rem;
   font-weight: 600;
   color: var(--grey-scale-1000, #000);
-  border-bottom: 1px solid  var(--grey-scale-1000, #161615);;
+  border-bottom: 1px solid  var(--grey-scale-1000, #161615);
+  position: relative;
 }
-
+.product-header h2::before{
+  content: ""; 
+  position: absolute;
+  left: -4%;
+  bottom: -10%; 
+  width: 22px; 
+  height: 22px; 
+  background-image: url('./Components/images/Star\ 2.png'); 
+  background-size: cover;
+  
+}
 .arrow{
   font-family: Syne;
   display: flex;
@@ -595,6 +611,9 @@ flex-shrink: 0;
   }
   .all-products{
     margin-left: 1.35rem;
+  }
+  .product-header h2::before{
+    display: none;
   }
   /* Products */
 
