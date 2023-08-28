@@ -178,15 +178,16 @@ input[type="email"]
 
 .abs-img{
   position: absolute;
-  top: 23rem;
+  top: 18rem;
   right: 2rem;
+  
 }
 
 .abs1-img{
   position: absolute;
-  top: 23rem;
+  top: 17rem;
   right: 4rem;
-
+  
 }
 
 .orange{
@@ -216,21 +217,21 @@ font-style: normal;
 font-weight: 800;
 line-height: 6.413rem;
 margin-left: 7.188rem;
-z-index: 100;
+
 
 }
 
 #year{
   font-family: Syne;
   width: 100%;
-  position: absolute;
+  /* position: absolute; */
 font-size: 8.438rem;
 font-style: normal;
 font-weight: 800;
 line-height: 6.413rem;
 color: transparent;
 margin-left: 26.5rem;
-z-index: 100;
+
 -webkit-text-stroke: 1px var(--grey-scale-1000, white); /* Width and color of the outline */
   
 
@@ -245,7 +246,7 @@ font-style: normal;
 font-weight: 800;
 line-height: 6.413rem;
 margin-left: 11.688rem;
-z-index: 100;
+
 
 }
 
@@ -743,32 +744,31 @@ flex-shrink: 0;
 
   /* Body */
   .abs-img{
-    top: 8rem;
-    right: 1rem;
+    display: none;
 
   }
   .abs1-img{
-     top: 6rem;
-     right: 0;
+     display: none;
 
   }
-  .see-more{
-    position: relative;
-    z-index: 100;
+  .body{
+    background: url(../src/Components/images/jessica-radanavong-IchPBHFD0pw-unsplash.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: var(--grey-scale-1000, #000);
   }
+  
   .orange{
     height: 20.25rem;
     margin: 0;
     opacity: 0.5;
+    margin-top: -10rem;
   }
   #fresh{
     
 font-size: 3.438rem;
 margin-left: 3.438rem;
 line-height: 125.6%;
-position: relative;
-
-
 
   }
   
@@ -777,15 +777,14 @@ position: relative;
     font-size: 3.438rem;
 margin-left: 8rem;
 line-height: 125.6%;
-position: absolute;
+
 
   }
   #look{
     
     font-size: 3.438rem;
     margin-left: 5rem;
-    position: absolute;
-    margin-top: 5rem;
+    
     
   }
   .body p{
