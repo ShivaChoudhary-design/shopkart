@@ -217,11 +217,13 @@ font-weight: 800;
 line-height: 6.413rem;
 margin-left: 7.188rem;
 z-index: 100;
+
 }
 
 #year{
   font-family: Syne;
   width: 100%;
+  position: absolute;
 font-size: 8.438rem;
 font-style: normal;
 font-weight: 800;
