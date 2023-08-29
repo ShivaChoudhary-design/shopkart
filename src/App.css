@@ -231,6 +231,7 @@ font-weight: 800;
 line-height: 6.413rem;
 color: transparent;
 margin-left: 26.5rem;
+z-index: 10;
 
 -webkit-text-stroke: 1px var(--grey-scale-1000, white); /* Width and color of the outline */
   
@@ -516,7 +517,7 @@ padding: 1.5rem 0 1.5rem 0;
 
 /* footer */
 
-@media (max-width : 768px){
+@media (max-width : 900px){
 
 
   /* Header */
