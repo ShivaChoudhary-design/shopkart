@@ -173,7 +173,7 @@ input[type="email"]
   color: white;
   background-color: var(--grey-scale-1000, #000);
   padding-bottom: 5.693rem;
-  overflow-x: scroll;
+  overflow-x: hidden;
 }
 
 .abs-img{
@@ -342,7 +342,7 @@ line-height: normal;
   
   position: relative;
   
-  overflow: hidden;
+  overflow: scroll;
   display: flex;
   margin-left: 6.063rem;
   
