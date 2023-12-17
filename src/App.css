@@ -173,7 +173,7 @@ input[type="email"]
   color: white;
   background-color: var(--grey-scale-1000, #000);
   padding-bottom: 5.693rem;
-  overflow-x: hidden;
+  overflow-x: scroll;
 }
 
 .abs-img{
